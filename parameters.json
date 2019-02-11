@@ -1,0 +1,36 @@
+{
+    "$schema":  "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion":  "1.0.0.0",
+    "parameters":  {
+                       "alertName":  {
+                                         "value":  "NULL"
+                                     },
+                       "alertDescription":  {
+                                                "value":  "NULL"
+                                            },
+                       "alertSeverity":  {
+                                             "value":  3
+                                         },
+                       "isEnabled":  {
+                                         "value":  true
+                                     },
+                       "resourceId":  {
+                                          "value":  "NULL"
+                                      },
+                       "metricName":  {
+                                          "value":  "NULL"
+                                      },
+                       "operator":  {
+                                        "value":  "NULL"
+                                    },
+                       "threshold":  {
+                                         "value":  "NULL"
+                                     },
+                       "timeAggregation":  {
+                                               "value":  "NULL"
+                                           },
+                       "actionGroupId":  {
+                                             "value":  “NULL"
+                                         }
+                   }
+}
